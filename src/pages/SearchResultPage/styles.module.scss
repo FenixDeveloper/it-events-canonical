@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  gap: 120px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1279px) {
+  .page {
+    margin: 0 auto;
+    gap: 38px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 1080px) {
+  .page {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+/* Страница 404 */
+.notFound {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  height: calc(100vh - 113px - 64px);
+  padding: 242px 142px 153px;
+  background: url('../../images/404.svg') no-repeat;
+  background-position-x: 104px;
+  background-position-y: 113px;
+  background-color: #e6e6e6;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+.notInfo {
+  position: absolute;
+  top: 114px;
+  left: 418px;
+}
+
+.notTitle {
+  color: #242424;
+  margin: 0 0 16px;
+}
+
+.notBlock {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 25px;
+  gap: 20px;
+}
+
+.notText {
+  color: #242424;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 1080px) {
+  .notFound {
+    height: calc(100vh - 113px - 320px);
+    padding: 0;
+    background-position-x: -30px;
+  }
+
+  .notInfo {
+    left: 200px;
+  }
+}
