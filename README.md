@@ -30,3 +30,7 @@
 10. **npm run predeploy:** выполняет сборку перед развертыванием.
 11. **npm run deploy:** разворачивает приложение с помощью GitHub Pages.
 12. **npm run storybook:** запускает Storybook на http://localhost:6006.
+
+### Ссылка на опубликованную версию
+
+https://fenixdeveloper.github.io/it-events-canonical/

@@ -1,11 +1,11 @@
 {
   "name": "it-events-frontend",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "clsx": "^2.0.0",
     "dayjs": "^1.11.9",
-    "it-events-frontend": "../workshop-template",
+    "it-events-frontend": "https://github.com/FenixDeveloper/it-events-template.git",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,7 +14,7 @@
     "sass": "^1.67.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PUBLIC_URL=/ react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -25,7 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": ".",
+  "homepage": "https://fenixdeveloper.github.io/it-events-canonical/",
   "alias": {
     "react/jsx-runtime.js": "react/jsx-runtime",
     "react/jsx-dev-runtime.js": "react/jsx-dev-runtime"
@@ -51,6 +51,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "cross-env": "^7.0.3",
     "eslint-config-prettier": "^8.8.0",
     "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
